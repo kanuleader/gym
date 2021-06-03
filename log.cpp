@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//#define DEBUG
+#define DEBUG
 
 #ifdef DEBUG
 #define PINT(a)     printf("pin: [%s, %d]: %s: %d\n", __FUNCTION__, __LINE__, #a, (a))
